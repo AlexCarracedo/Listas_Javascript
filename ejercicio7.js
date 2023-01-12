@@ -1,5 +1,4 @@
-function comprobar(lista) {
-    var elemento = prompt("Introduzca el elemento que quieres comprobar que esté en la lista:")
+function comprobar(lista, elemento) {
     for (var i=0; i<lista.length; i++) {
         if (elemento == lista[i]) {
             return true;
